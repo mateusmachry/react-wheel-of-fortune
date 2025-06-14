@@ -1,0 +1,43 @@
+{
+  "name": "@matmachry/react-wheel-of-fortune",
+  "version": "1.0.0",
+  "description": "React Wheel of Fortune Component",
+  "keywords": [
+    "react",
+    "wheel of fortune",
+    "react component",
+    "wheel of fortune component",
+    "react wheel"
+  ],
+  "homepage": "https://github.com/mateusmachry/react-wheel-of-fortune#readme",
+  "bugs": {
+    "url": "https://github.com/mateusmachry/react-wheel-of-fortune/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusmachry/react-wheel-of-fortune.git"
+  },
+  "license": "MIT",
+  "author": "Mateus Machry",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "lucide-react": "^0.515.0"
+  },
+  "dependencies": {
+    "tailwind-merge": "^3.3.1"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}
