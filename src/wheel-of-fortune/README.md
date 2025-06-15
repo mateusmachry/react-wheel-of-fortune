@@ -58,7 +58,7 @@ function SpinButton({ ...props }: SpinButtonProps) {
 }
 
 // Custom Pointer component
-export function PointerIcon(props: SVGProps<SVGSVGElement>) {
+function PointerIcon(props: SVGProps<SVGSVGElement>) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...props}>
             <path fill="currentColor" fillRule="evenodd" d="M20.05 17.65a3 3 0 0 0 1.2-2.4v-11a3 3 0 0 0-3-3h-12a3 3 0 0 0-3 3v11a3 3 0 0 0 1.2 2.4l6 4.5a3 3 0 0 0 3.6 0z" clipRule="evenodd" />
